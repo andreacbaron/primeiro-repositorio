@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action=""> <!--conteiner de input-->
+        <div>
+            <label for="campoNome">Nome completo</label><br> <!--retulo do compo (da um nome)-->
+            <!--compo de entrada de dado-->
+            <!--planceholder = dica p; usuario-->
+            <!--required = obrigatoeio-->
+            <input id="campoNome" name="campoNome"  type="text" value="" placeholder="Seu nome" required>
+        </div>
+        <div>
+            <label for="campoEmail">Email</label> <br>
+            <input type="email" name="campoEmail" placeholder="usuario@exemplo.com" required/>
+            <div>
+                <label for="campoSenha">Senha</label><br>
+                <input id="campoSenha" name="campoSenha" value="" type="password" placeholder="Sua senha" required>
+            </div>
+           <div>
+
+            <label for="compoProfissao">Profissão</label><br>
+            <select  id="compoProfissao" name="campoProfissao" value="" required>
+                <!--caixa de celecao c/ opcao-->
+                <option sele value="">Selecione uma Opcao</option>
+                <option value="Professor">Professor</option>
+                <option value="Tecnico">Tecnico</option>
+                <option value="Especialista">Especialista</option>
+
+            </select>
+           </div>
+           <div>
+            <label for="checkPartugues"></label>Idiomas Nativo<br>
+            <input id="checkPartugues" name="compoIdioma" type="radio"
+            value="portugues" required />
+            <label for="portugues">Portugues</label>
+
+            <input id="checkEspanhol" name="compoIdioma" type="radio"
+            value="espnhol"/>
+            <label for="checkEspanhl">Espanhol</label>
+            
+            <input id="checkIngles" name="compoIdioma" type="radio"
+            value="ingles" required/>
+            <label for="checkIngles">Ingles</label>
+           </div>
+           <div>
+            <label for=""></label>
+            <textarea name="compoResumo" id="campuResumo" maxlenght="128" cols="30" rows="5" placeholder="Discreva sua vida"></textarea>
+           </div>
+           <div>
+            <input id="checkTermos" type="checkBox" 
+            name="concordaTermos" required/>
+            <label for="checkTermos">concorda com os termos</label>
+           </div>
+           <div>
+            <hr>
+            <button type="submit">Enviar</button>
+            <button type="reset">limpar</button>
+            <button type="button" onclick="alert()">Outra acao</button>
+           </div>
+        </div>
+    </form>
+</body>
+</html>

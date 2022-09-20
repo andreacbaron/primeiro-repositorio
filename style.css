@@ -1,0 +1,26 @@
+#content{
+   
+
+    
+        background: rgb(6, 84, 26);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    
+
+};
+
+#circulo {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    shape-outside: circle(50% at 30%);
+    clip-path: circle(50% at 0%);
+    background: lightblue;
+  }
+
+  #testo{
+color: aqua;
+background-color: blue;
+  }
