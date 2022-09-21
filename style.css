@@ -1,26 +1,32 @@
-#content{
-   
+* {
+  margin: 0;
+  padding: 0;
+}
 
-    
-        background: rgb(6, 84, 26);
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-    
+.centralisar{
+  text-align: -webkit-center;
+  
+}
 
-};
+footer {
+  background-color:  rgb(15, 100, 137);
+ padding-bottom: 25%;
+}
 
-#circulo {
-    float: left;
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-    shape-outside: circle(50% at 30%);
-    clip-path: circle(50% at 0%);
-    background: lightblue;
-  }
+.header{
+  background-color: rgb(15, 100, 137);
+}
 
-  #testo{
-color: aqua;
-background-color: blue;
-  }
+.data{
+  color: aliceblue;
+}
+
+th{
+  padding: 10px;
+
+}
+
+.logo{
+  padding-left: 300px;
+  
+}
