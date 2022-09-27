@@ -11,12 +11,14 @@
 /* } */
 
 .tudo{
-  margin: 2cm 100cm 3cm 12cm
+  /* margin: 2cm 100cm 3cm 12cm */
   /* text-align: -webkit-center;
   align-content: flex-start  */
   /* background-position: center; */
   /* margin: 35px 70px 50px 90px;
    */
+
+   text-align: -webkit-center;
 
    
   
@@ -94,8 +96,10 @@ padding-left: 7cm;
 } */
 
 div{
-  
-  background-color: #0d6360;
+display: inline;
+  align-items: center;
+  flex-direction: column;
+  margin:200cm;
 }
 
 .libertadores{
