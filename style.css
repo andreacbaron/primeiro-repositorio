@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ /* .centralisar{
+  text-align: -webkit-center;
+  align-content: flex-start  */
+  
+  
+/* } */
+
+.tudo{
+  /* margin: 2cm 100cm 3cm 12cm */
+  /* text-align: -webkit-center;
+  align-content: flex-start  */
+  /* background-position: center; */
+  /* margin: 35px 70px 50px 90px;
+   */
+
+   text-align: -webkit-center;
+
+   
+  
+  
+  
+  
+}
+
+footer {
+  background-color:  #0d6360;
+ padding-bottom: 5%;
+ color: white;
+ padding-left: 10px;
+
+}
+
+.header{
+  background-color: rgb(96, 150, 91);
+  color: white;
+  padding-bottom: 1%;
+  font-size: 25px;
+  
+  text-align: center;
+}
+
+.data{
+  color: aliceblue;
+}
+
+th{
+  padding: 15px;
+
+}
+
+
+.espaco{
+  padding: 40px;
+}
+
+.time{
+padding-right: 7cm;
+padding-left: 7cm;
+
+  font-size: 20px;
+  padding-top: 1.5cm;
+  padding-bottom: 1.5cm;
+  font-size: 30px;
+ 
+  
+}
+
+.imgs{
+  height: 55px;
+  width: 55px;
+ display: flex;
+ padding-left: 2cm;
+ font-size: green;
+}
+
+.verde{
+  color: rgb(22, 136, 9);
+}
+
+.laranja{
+  color:#FFA500;
+}
+
+.vermelho{
+  color: red;
+}
+
+/* bary{
+  margin: 0px;
+  padding: 0px;
+} */
+
+div{
+display: inline;
+  align-items: center;
+  flex-direction: column;
+  margin:200cm;
+}
+
+.libertadores{
+  color: rgb(76, 177, 33);
+  text-align: center;
+}
+
+.copaAmerica{
+  color: #f7b438;
+  text-align: center;
+}
+
+.rebaixados{
+  color: red;
+  text-align: center;
+}

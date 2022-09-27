@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h3 {
+    background-color: brown;
+    font-size: 80px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.box1 {
+    background-color: blueviolet;
+    padding: 16px;
+    margin: 8px;
+}
+
+.box2 {
+    background-color: rgb(79, 243, 147);
+    padding: 8px 20px 4px;
+    margin: 8px 10px 20px 40px;
+}
+
+.box3 {
+    background-color: rgb(171, 124, 21);
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box4 {
+    background-color: rgb(173, 31, 128);
+    ;
+}
+
